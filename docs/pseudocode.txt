@@ -1,0 +1,18 @@
+START
+correct = 0
+incorrect = 0
+
+WHILE correct < 3 AND incorrect < 3
+    choose random word
+    print sonnet until random word
+    print underscores
+    ask user for input
+
+IF user's answer is correct
+    correct = correct + 1
+ELSE
+    incorrect = incorrect + 1
+
+END WHILE
+
+END

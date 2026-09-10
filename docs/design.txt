@@ -1,0 +1,20 @@
+Prithee Program Design
+
+The program will start in the Main class and should run in the console.
+
+The sonnet will be stored so that the program can access each word.
+
+Structure of the program:
+
+1. Computer will choose a random word from the sonnet
+2. Computer will print all of the words before the random chosen word
+3. Computer will replace the chosen word with underscores
+4. Computer will stop printing the sonnet
+5. Computer will ask for user input to enter the missing word
+6. Computer will compare the user's response to the chosen/missing word
+7. If user input is correct, increases the correct answer counter
+8. If incorrect, increases the incorrect answer counter
+9. Start another round with a different missing word.
+
+The program will end when:
+the user obtains 3 CORRECT answers OR the user obtains 3 INCORRECT answers
