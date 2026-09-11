@@ -1,0 +1,14 @@
+------------------------------
+            Game
+------------------------------
+- sonnet: Sonnet
+- scanner: Scanner
+- random: Random
+- correct: int
+- incorrect: int
+------------------------------
++ Game()
++ start(): void
++ checkAnswer (answer: String,
+correctWord: String): boolean
+------------------------------

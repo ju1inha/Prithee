@@ -1,0 +1,15 @@
+--------------------------------------
+               GameTest
+--------------------------------------
++ correctAnswerReturnsTrue(): void
++ incorrectAnswerReturnsFalse(): void
++ capitalizationDoesNotMatter(): void
+--------------------------------------
+
+--------------------------------------
+               SonnetTest
+--------------------------------------
++ sonnetHasFourteenLines(): void
++ sonnetStartsWithCorrectLine(): void
++ sonnetEndsWithCorrectLine(): void
+--------------------------------------
