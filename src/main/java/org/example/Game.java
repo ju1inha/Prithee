@@ -22,6 +22,11 @@ public class Game {
         incorrect = 0;
     }
 
+    public boolean checkAnswer(String answer, String correctWord) {
+        return answer.equalsIgnoreCase(correctWord);
+    }
+
+
     public void start() {
         while (correct < 3 && incorrect < 3) {
 
@@ -40,12 +45,12 @@ public class Game {
 
             System.out.println("____");
 
-            System.out.print("What is the missing word?");
+            System.out.print("What is the missing word? ");
             String answer = scanner.nextLine();
 
-            String correctWord = words[randomWord].replaceAll("[^a-zA-Z]", "");
+            String correctWord = words[randomWord].replaceAll("[^a-zA-Z']", "");
 
-            if (answer.equalsIgnoreCase(correctWord)) {
+            if (checkAnswer(answer, correctWord)) {
                 System.out.println("Correct!");
                 correct++;
             } else {
