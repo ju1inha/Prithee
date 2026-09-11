@@ -1,7 +1,7 @@
 PRITHEE - HOMEWORK 2
 
 Requirements to run program:
-* IntelliJ Idea
+* IntelliJ IDEA
 * Java 26
 * Gradle
 

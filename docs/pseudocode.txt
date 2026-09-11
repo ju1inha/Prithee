@@ -9,10 +9,13 @@ WHILE correct < 3 AND incorrect < 3
     ask user for input
 
 IF user's answer is correct
+    print "Correct!"
     correct = correct + 1
 ELSE
+    print "Incorrect"
     incorrect = incorrect + 1
 
+    restart sonnet for next round
 END WHILE
 
 END
